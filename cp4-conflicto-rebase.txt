@@ -1,0 +1,30 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-4-introduccion-a-git-rebase-DaniBanani67$ git status
+rebase interactivo en progreso; sobre 2c6f218
+El último comando realizado (1 comando realizado):
+   pick dacdab8 Añade notas iniciales de la funcionalidad
+Siguiente comando a realizar (1 comando restante):
+   pick 1c56ade Modifica notas en feature-notas
+  (usa "git rebase --edit-todo" para ver y editar)
+Estás aplicando un rebase de la rama 'feature-notas' sobre '2c6f218.
+  (corrige los conflictos y ejecuta "git rebase --continue")
+  (usa "git rebase --skip" para omitir este parche)
+  (usa "git rebase --abort" para volver a tu rama original)
+
+Rutas no fusionadas:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+  (usa "git add <archivo>..." para marcar una resolución)
+        agregados por ambos:    notas.md
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp1-estado-inicial-rebase.txt
+        cp2-divergencia.txt
+        cp3-despues-rebase.txt
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+<<<<<<< HEAD
+- Nota 1: versión desde main.
+=======
+- Nota 1: pendiente de completar.
+>>>>>>> dacdab8 (Añade notas iniciales de la funcionalidad)

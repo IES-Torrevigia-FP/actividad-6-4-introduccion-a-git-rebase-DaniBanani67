@@ -1,0 +1,7 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-4-introduccion-a-git-rebase-DaniBanani67$ git log --oneline --all
+ac044ea (HEAD -> feature-notas) Añade notas iniciales de la funcionalidad
+2c6f218 (main) Crea notas en main
+243fba3 Actualiza changelog a v1.1
+0e2d89c Crea changelog con versión inicial
+21b9a84 (origin/main, origin/HEAD) add deadline
+20f2714 Initial commit
